@@ -1,0 +1,6 @@
+pandas==2.2.2
+numpy==1.26.4
+yfinance==0.2.40
+pykalman==0.9.5
+statsmodels==0.14.1
+matplotlib==3.8.3
