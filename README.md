@@ -1,6 +1,10 @@
 # Statistical Arbitrage Using Kalman Filter
 ### Dynamic Hedge Ratio Pairs Trading Strategy with Portfolio Construction
- Statistical arbitrage pairs trading system using Kalman Filter for dynamic hedge ratio estimation, cointegration testing, and portfolio construction.
+Statistical arbitrage pairs trading system using Kalman Filter for dynamic hedge ratio estimation, cointegration testing, and portfolio construction.
+
+This project implements a **multi-sector statistical arbitrage strategy** using a Kalman Filter for dynamic hedge ratio estimation.
+
+It scans NSE stocks, identifies cointegrated pairs, and constructs a mean-reversion portfolio with risk controls and transaction costs.
 
 ### Overview
 
@@ -16,6 +20,14 @@ The framework includes:
 * Signal generation with risk controls
 * Portfolio construction from multiple pairs
 * Performance analytics and visualization
+
+### Why Kalman Filter?
+
+Traditional pairs trading models use a static hedge ratio estimated via OLS, which assumes a stable relationship between assets.
+
+However, in real markets, relationships between assets evolve over time. The Kalman Filter models the hedge ratio as a latent state that updates dynamically, allowing the spread to adapt to changing market regimes.
+
+This leads to more robust signal generation and better handling of non-stationarity.
 
 ### Key Features
 
@@ -81,6 +93,8 @@ Mean-reversion signals are generated using:
 * Z-score normalization
 
 Trading Logic:
+
+The strategy exploits mean-reversion in the spread between two cointegrated assets.
 
 | Condition | Action |
 |----------|--------|
@@ -155,6 +169,8 @@ Portfolio Performance:
 
 * Sharpe Ratio: 4.46
 * Maximum Drawdown: -1.29%
+
+The strategy demonstrates strong out-of-sample performance, indicating robustness and reduced overfitting due to strict train/test separation.
   
 ### Project Structure
 ```
