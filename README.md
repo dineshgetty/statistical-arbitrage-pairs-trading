@@ -173,11 +173,15 @@ pairs-trading-project/
 │
 ├── results/
 │   ├── final_pairs.csv
-│
+|   ├──
+│   ├──
+|   ├──
+|   ├──
 ├── config.py
 ├── main.py
 ├── requirements.txt
 └── README.md
+└──.gitignore
 ```
 
 ### Installation
