@@ -1,10 +1,7 @@
 import matplotlib.pyplot as plt
 
 def plot_spread_zscore(df, pair_name):
-    """
-    Plots spread and z-score for a given pair
-    """
-
+    
     fig, axes = plt.subplots(2, 1, figsize=(12, 8), sharex=True)
 
     # --- Spread Plot ---
@@ -20,3 +17,10 @@ def plot_spread_zscore(df, pair_name):
     axes[1].axhline(0, linestyle="--", label="Mean")
     axes[1].set_title(f"{pair_name} Z-Score")
     axes[1].legend()
+
+    plt.tight_layout()
+
+    safe_name = pair_name.replace(".", "").replace("-", "_")
+    plt.savefig(f"results/{safe_name}_spread_zscore.png")
+
+    plt.close()
