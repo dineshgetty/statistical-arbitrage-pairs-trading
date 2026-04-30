@@ -208,7 +208,8 @@ statistical_arbitrage_pairs_trading/
 │   ├── final_pairs.csv
 |   ├── rolling_sharpe.png
 │   ├── equity_curve.png
-|   └── drawdown.png
+|   ├── drawdown.png
+|   └── GODREJCPNS_HINDUNILVRNS_spread_zscore.png
 |   
 ├── config.py
 ├── main.py
