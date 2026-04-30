@@ -171,7 +171,23 @@ Portfolio Performance:
 * Maximum Drawdown: -1.29%
 
 The strategy demonstrates strong out-of-sample performance, indicating robustness and reduced overfitting due to strict train/test separation.
-  
+
+Portfolio Equity Curve
+
+![Portfolio Equity curve](results/equity_curve.png)
+
+Portfolio Drawdown
+
+![Portfolio Drawdown](results/drawdown.png)
+
+Rolling Sharpe Ratio
+
+![Rolling Sharpe](results/rolling_sharpe.png)
+
+Spread and Z-Score Example
+
+![Spread Z-Score](results/spread_z_score.png)
+
 ### Project Structure
 ```
 statistical_arbitrage_pairs_trading/
@@ -185,6 +201,7 @@ statistical_arbitrage_pairs_trading/
 │   ├── utils.py
 │   ├── pair_selection.py
 │   ├── portfolio.py
+|   ├── plotting.py
 │   └── __init__.py
 │
 ├── results/
