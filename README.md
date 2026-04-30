@@ -186,7 +186,7 @@ Rolling Sharpe Ratio
 
 Spread and Z-Score Example
 
-![Spread Z-Score](results/spread_z_score.png)
+![Spread Z-Score](results/GODREJCPNS_HINDUNILVRNS_spread_zscore.png)
 
 ### Project Structure
 ```
