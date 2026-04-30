@@ -65,6 +65,8 @@ def run():
         _, half_life = compute_stats(df["spread"])
         df = generate_signals(df, half_life)
 
+        plot_spread_zscore(df, f"{a}-{b}")
+
         signal = latest_signal(df)
 
         print("\nLive Signal for Top Pair:")
