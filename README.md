@@ -188,7 +188,7 @@ Spread and Z-Score Example
 
 The plot below shows the spread and corresponding z-score for the top-performing pair, illustrating mean-reversion and trading signals.
 
-![Spread Z-Score](results/GODREJCPNS_HINDUNILVRNS_spread_zscore.png)
+![Spread Z-Score](results/spread_zscore_example.png)
 
 ### Project Structure
 ```
@@ -211,7 +211,7 @@ statistical_arbitrage_pairs_trading/
 |   ├── rolling_sharpe.png
 │   ├── equity_curve.png
 |   ├── drawdown.png
-|   └── GODREJCPNS_HINDUNILVRNS_spread_zscore.png
+|   └── spread_zscore_example.png
 |   
 ├── config.py
 ├── main.py
