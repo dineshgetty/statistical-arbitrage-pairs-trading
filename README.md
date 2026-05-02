@@ -284,6 +284,12 @@ Where:
 * Train/test validation
 * Drawdown tracking
 
+### Limitations
+
+* Assumes stable mean-reversion relationships over short horizons  
+* Sensitive to transaction costs and execution latency  
+* Does not account for slippage or market impact  
+
 ### Future Improvements
 
 Potential extensions:
