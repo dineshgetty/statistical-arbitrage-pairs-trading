@@ -186,6 +186,8 @@ Rolling Sharpe Ratio
 
 Spread and Z-Score Example
 
+The plot below shows the spread and corresponding z-score for the top-performing pair, illustrating mean-reversion and trading signals.
+
 ![Spread Z-Score](results/GODREJCPNS_HINDUNILVRNS_spread_zscore.png)
 
 ### Project Structure
