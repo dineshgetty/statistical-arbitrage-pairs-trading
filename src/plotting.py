@@ -20,7 +20,6 @@ def plot_spread_zscore(df, pair_name):
 
     plt.tight_layout()
 
-    safe_name = pair_name.replace(".", "").replace("-", "_")
-    plt.savefig(f"results/{safe_name}_spread_zscore.png")
+    plt.savefig(f"results/spread_zscore_example.png")
 
     plt.close()
